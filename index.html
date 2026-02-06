@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuum Hero Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 antialiased relative">
+
+    <!-- Navigation -->
+    <nav class="w-full bg-white py-5 px-6 md:px-8 lg:px-12 flex items-center justify-between sticky top-0 z-40">
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+            <img src="https://placehold.co/40x40/000000/ffffff?text=B" alt="Continuum Logo" class="h-10 w-10 rounded-sm">
+        </div>
+
+        <!-- Center Links (Hidden on mobile) -->
+        <div class="hidden md:flex items-center space-x-8 text-[15px] font-medium text-gray-900">
+            <a href="#" class="hover:text-[#475569]">Product</a>
+            <a href="#" class="hover:text-[#475569]">Solutions</a>
+            <a href="#" class="hover:text-gray-600">Resources</a>
+            <a href="#" class="hover:text-gray-600">Company</a>
+        </div>
+
+        <!-- Right Actions -->
+        <div class="flex items-center space-x-6">
+            <a href="#" class="text-[15px] font-medium text-gray-900 hover:text-gray-600 hidden sm:block">Log in</a>
+            <a href="#" class="bg-black text-white text-[15px] font-medium px-5 py-2.5 rounded-lg hover:bg-gray-800 transition-colors">Join the waitlist</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-[1200px] mx-auto px-6 md:px-8 pt-16 md:pt-24">
+        
+        <!-- Hero Text -->
+        <div class="max-w-4xl">
+            <h1 class="text-5xl md:text-[4rem] leading-[1.1] font-medium tracking-tight text-black mb-6">
+                Master your physiology with clinical-grade executive briefings
+            </h1>
+            <p class="text-xl md:text-[1.35rem] leading-relaxed text-gray-500 max-w-3xl font-normal mb-10">
+                Continuum transforms fragmented health data from any device into a single, daily briefing. Designed for high-performance founders who treat health as their ultimate competitive advantage.
+            </p>
+            
+            <div class="flex flex-wrap gap-4">
+                <a href="#" class="bg-[#0d9488] text-white text-base font-medium px-6 py-3 rounded-lg hover:bg-[#0f766e] transition-colors">
+                    Contact sales
+                </a>
+                <a href="#" class="bg-white border border-gray-200 text-gray-900 text-base font-medium px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors">
+                    See sample brief
+                </a>
+            </div>
+        </div>
+
+        <!-- Logos Section -->
+        <div class="mt-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 lg:gap-12 border-gray-100">
+            <div class="text-xs text-gray-500 font-medium max-w-[150px] leading-relaxed">
+                Trusted by founders from the world's most performant startups
+            </div>
+            
+            <div class="flex flex-wrap items-center gap-8 md:gap-12 lg:gap-16 opacity-90 grayscale">
+                <img src="https://placehold.co/110x28/ffffff/000000?text=Pinterest&font=roboto" alt="Pinterest" class="h-7 object-contain">
+                <img src="https://placehold.co/80x28/ffffff/000000?text=Uber&font=roboto" alt="Uber" class="h-7 object-contain">
+                <img src="https://placehold.co/90x28/ffffff/000000?text=Square&font=roboto" alt="Square" class="h-7 object-contain">
+                <img src="https://placehold.co/110x28/ffffff/000000?text=Airwallex&font=roboto" alt="Airwallex" class="h-7 object-contain">
+                <img src="https://placehold.co/90x28/ffffff/000000?text=Adobe&font=roboto" alt="Adobe" class="h-7 object-contain">
+            </div>
+        </div>
+
+        <!-- Hero Image -->
+        <div class="mt-12 relative w-full">
+            <!-- Main Image Placeholder -->
+            <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/da7b92fe-94f5-412c-bbc5-0ca8bb6e0d5c/hero-1-img-0-1770339017949.png" alt="Hero Visual" class="w-full rounded-t-3xl object-cover h-[400px] md:h-[500px] lg:h-[600px]">
+            
+            <!-- Mock Notification Overlay (Simulating the Starbucks notification in screenshot) -->
+            <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 md:translate-y-0 md:bottom-10 bg-white/80 backdrop-blur-md p-3 rounded-xl shadow-lg flex items-center gap-3 border border-white/40 w-64 hidden md:flex">
+                <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center overflow-hidden">
+                    <img src="https://placehold.co/40x40/cccccc/999999?text=S" alt="Icon">
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-xs font-semibold text-gray-800">Continuum Daily</span>
+                    <span class="text-[10px] text-gray-600">Recovery score: 94% (Optimal)</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Cookie Consent Banner -->
+    <div class="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 max-w-[400px] w-full bg-white p-6 rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-gray-100">
+        <p class="text-[13px] leading-relaxed text-gray-800 mb-4">
+            By clicking “Accept”, you agree to the use of cookies on your device or browser to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+        </p>
+        <div class="flex gap-4 mb-6 text-[13px]">
+            <a href="#" class="text-[#0d9488] hover:underline font-medium">Privacy Statement</a>
+            <a href="#" class="text-blue-600 hover:underline font-medium">Remove my data</a>
+        </div>
+        <div class="flex gap-3">
+            <button class="flex-1 bg-[#246BFD] hover:bg-blue-700 text-white text-[13px] font-medium py-2.5 px-4 rounded-md transition-colors">
+                Accept all cookies
+            </button>
+            <button class="flex-1 bg-white border border-gray-200 hover:bg-gray-50 text-gray-700 text-[13px] font-medium py-2.5 px-4 rounded-md transition-colors">
+                Cookie settings
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>
